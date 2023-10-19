@@ -1,5 +1,6 @@
 import pyshorteners
 url = input("Enter the URL:")
+# function for shortening
 def shawty(url):
     a = pyshorteners.Shortener()
     print(a.tinyurl.short(url))
